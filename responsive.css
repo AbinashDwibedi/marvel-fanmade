@@ -1,0 +1,47 @@
+@media screen and (max-width:900px){
+.about-login {
+    justify-content: center;
+    
+}
+.tony-stark {
+    height: 250px;
+    width: 100%;
+    border-radius: 30px;
+    object-fit: cover;
+}
+
+
+}
+@media screen and (max-width:800px){
+    .movies::-webkit-scrollbar {
+    display: none;
+    width: 0px;
+}
+nav {
+    flex-direction: column;
+    justify-content: center;
+    height: 90px;
+    gap:1px;
+}
+.search-img{
+    height: 30px;
+    width: 30px;
+    border: 1px solid white;
+    margin-top: 1px;
+    border-top-right-radius: 5px;
+    transition: background .4s;
+}
+.right-head{
+    flex-direction: column-reverse;
+    gap:2px;
+}
+.heading-para {
+    padding: 0px 20px;
+}
+.heading-logo {
+    height: 60px;
+}
+input[placeholder="Enter here to search"] {
+    height: 27px;
+    width: 290px;}
+}
